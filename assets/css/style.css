@@ -518,3 +518,12 @@ body {
     font-size: 15px;
 }
 
+#main-content #nav-tabContent #nav-tatca .img-style img, #main-content #nav-tabContent #nav-hot .img-style img, #main-content #nav-tabContent #nav-bancanohut .img-style img, #main-content #nav-tabContent #nav-gamebai .img-style img, #main-content #nav-tabContent #nav-bancanohu .img-style img, #main-content #nav-tabContent #nav-thethao .img-style img, #main-content #nav-tabContent #nav-casino .img-style img {
+    width: 100%;
+    padding: 10px;
+}
+
+#nav-tabContent .active {
+    display: flex;
+    flex-wrap: wrap;
+}
