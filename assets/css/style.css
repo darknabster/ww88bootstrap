@@ -517,7 +517,9 @@ body {
     color: white;
     font-size: 15px;
 }
-
+#main-content #nav-tabContent #nav-tatca .img-style:hover {
+    cursor: pointer;
+}
 #main-content #nav-tabContent #nav-tatca .img-style img, #main-content #nav-tabContent #nav-hot .img-style img, #main-content #nav-tabContent #nav-bancanohut .img-style img, #main-content #nav-tabContent #nav-gamebai .img-style img, #main-content #nav-tabContent #nav-bancanohu .img-style img, #main-content #nav-tabContent #nav-thethao .img-style img, #main-content #nav-tabContent #nav-casino .img-style img {
     width: 100%;
     padding: 10px;
@@ -527,3 +529,23 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+#nav-tab {
+    background-color: #399fda;
+    border-radius: 100px;
+}
+
+#nav-tab button {
+    border-radius: 60px;
+    border: none;
+    color: white;
+}
+
+#nav-tab button.active {
+    background-color: lightskyblue;
+    color: #0a58ca;
+    font-weight: 600;
+}
+#nav-tab button:hover {
+    color: #7fffd4;
+}
+
